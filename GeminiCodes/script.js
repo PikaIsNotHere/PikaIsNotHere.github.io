@@ -1,14 +1,15 @@
-const imageFolder = "/assets/images/"; // Adjust the path if needed
+// Replace these image URLs with your actual image URLs
+const imageUrls = [
+    "/assets/images/image.jpg",
+    "/assets/images/image2.jpg",
+    // Add more URLs as needed
+];
 
-// Get all images in the folder
-const images = [];
-for (const image of document.querySelectorAll(`img[src^="${imageFolder}"]`)) {
-    images.push(image.src);
-}
+alert("testing");
 
 // Function to pick a random image
 function pickRandomImage() {
-    return images[Math.floor(Math.random() * images.length)];
+    return imageUrls[Math.floor(Math.random() * imageUrls.length)];
 }
 
 // Set initial background
