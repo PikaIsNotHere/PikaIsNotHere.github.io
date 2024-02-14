@@ -5,8 +5,6 @@ const imageUrls = [
     // Add more URLs as needed
 ];
 
-alert("testing");
-
 // Function to pick a random image
 function pickRandomImage() {
     return imageUrls[Math.floor(Math.random() * imageUrls.length)];
