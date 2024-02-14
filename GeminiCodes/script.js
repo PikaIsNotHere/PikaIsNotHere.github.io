@@ -1,4 +1,6 @@
 // Replace these image URLs with your actual image URLs
+alert("testing")
+
 const imageUrls = [
     "/assets/images/image.jpg",
     "/assets/images/image2.jpg",
