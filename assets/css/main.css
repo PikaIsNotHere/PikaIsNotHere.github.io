@@ -304,48 +304,7 @@ input, select, textarea {
 		width: 6750px;
 	}
 
-/* Overlay */
-
-	@-moz-keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-webkit-keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-ms-keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@keyframes overlay {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
+	
 	#overlay {
 		-moz-animation: overlay 1.5s 1.5s forwards;
 		-webkit-animation: overlay 1.5s 1.5s forwards;
