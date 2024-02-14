@@ -30,18 +30,17 @@
 			</div>
 		</div>
 		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-		<script>
 	document.addEventListener('DOMContentLoaded', function() {
     	var backgrounds = [
         	'image1.jpg',
         	'image2.jpg',
-        // Add the URLs or paths of your 20 different images here
+        // Add the URLs or paths of your 20 different images here 
     ];
-
+		// <script>
+		//	window.onload = function() { document.body.classList.remove('is-preload'); }
+		//	window.ontouchmove = function() { return false; }
+		//	window.onorientationchange = function() { document.body.scrollTop = 0; }
+		// </script>
    	var randomIndex = Math.floor(Math.random() * backgrounds.length);
     var randomImage = backgrounds[randomIndex];
     
@@ -52,3 +51,4 @@
 		</script>
 	</body>
 </html>
+
