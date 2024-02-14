@@ -1,8 +1,8 @@
 // Replace these image URLs with your actual image URLs
 
 const imageUrls = [
-    "/assets/images/image.jpg",
-    "/assets/images/image2.jpg",
+    "image.jpg",
+    "image2.jpg",
     // Add more URLs as needed
 ];
 
