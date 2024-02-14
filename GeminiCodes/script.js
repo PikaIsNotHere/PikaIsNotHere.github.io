@@ -1,5 +1,5 @@
 const imageFolder = "/assets/images/"; // Adjust the path if needed
-const imageCount = 20; // Number of images to randomly choose
+const imageCount = 2; // Number of images to randomly choose
 
 // Get all images in the folder
 const images = [];
