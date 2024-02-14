@@ -20,3 +20,5 @@ window.addEventListener("load", () => {
     const newImage = pickRandomImage();
     document.getElementById("container").style.backgroundImage = `url(${newImage})`;
 });
+
+// 1366 610
