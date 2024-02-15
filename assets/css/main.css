@@ -220,7 +220,7 @@ input, select, textarea {
 		-webkit-transform: translate3d(0,0,0);
 		-ms-transform: translate3d(0,0,0);
 		transform: translate3d(0,0,0);
-		background: #348cb2 url("assets/css/images/eznobg.jpg") bottom left;
+		background: #348cb2 url("eznobg.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
