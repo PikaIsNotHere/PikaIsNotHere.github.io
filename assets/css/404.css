@@ -1,13 +1,8 @@
-.image-container {
+.img {
     width: 300px; /* Adjust width as needed */
     height: auto; /* Maintain aspect ratio */
     border: 1px solid #ccc; /* Add border */
     border-radius: 5px; /* Add border radius */
     overflow: hidden; /* Hide overflowing image */
-  }
-
-  .image-container img {
-    width: 50%; /* Make image fill its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove any default spacing */
+    display: block;
   }
